@@ -1,2 +1,2 @@
-github.com/jaytaylor/go-hostsfile v0.0.0-20170217190416-610d0c6fc973 h1:hpf6mQ21Lr+5SuBMAnI48DHRLuMTyOxCBnKpgSfgN0Q=
-github.com/jaytaylor/go-hostsfile v0.0.0-20170217190416-610d0c6fc973/go.mod h1:ANWA9RN/851H77KWOsy4W0XD8JKZddOiF+sUNvLkTvM=
+github.com/gorilla/mux v1.7.0 h1:tOSd0UKHQd6urX6ApfOn4XdBMY6Sh1MfxV3kmaazO+U=
+github.com/gorilla/mux v1.7.0/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=

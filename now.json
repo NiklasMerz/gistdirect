@@ -5,5 +5,17 @@
             "src": "*.go",
             "use": "@now/go"
         }
+    ],
+    "env": {
+        "GIST_URL": "@gist-url"
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "index.go"
+        }
+    ],
+    "alias": [
+        "gistdirect"
     ]
 }
