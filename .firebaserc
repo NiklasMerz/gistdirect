@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "production": "gistdirect",
+    "default": "gistdirect"
+  }
+}
