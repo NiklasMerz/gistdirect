@@ -1,12 +1,22 @@
 # gistdirect
 
-## Gistdirect is a simple URL redirection service. Imagine bitly.com or goo.gl and your hosts file combined
+## Gistdirect is a simple URL redirection service / URL shortener. 
 
-Create a Github Gist or just any plain file like with an alis or URL and provide the URL to this file to Gistdirect. If you hit any path aliased, it will redirect.
+> Imagine bitly.com or goo.gl and your hosts file combined
+
+Create a Github Gist or just any plain file hosted somewhere. Gistdirect will grap that file and redirect the alias to the full url.
 
 Sample "host" file:
 ```
 gh https://github.com
 ```
 
-It is a simple Go function which should be easy to run on any serverless platform. I got it running with Google Cloud Functions and Firebase hosting.
+[Test File](https://gist.github.com/NiklasMerz/a9b5905f742b5863197a0af0465a39f6)
+
+The URL to the file is provided as an environment variable: `GIST_URL`
+
+It is a simple Go function which is easy to run on any serverless platform. You can also run the binary somewhere and it will listen on port 8080. Executables are avaible from [releases](https://github.com/NiklasMerz/gistdirect/releases).
+
+I got it running with Google Cloud Functions and Firebase hosting. You can deploy the function from "function.go" via the web interface or gcloud CLI. Firebase can be used to assign a [custom domain](https://firebase.google.com/docs/hosting/custom-domain) to the function. Firebase CLI and the "firebase.json" file help you to assing the function to the root of the domain.
+
+
