@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "*.go",
+            "use": "@now/go"
+        }
+    ],
+    "env": {
+        "GIST_URL": "@gist-url"
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "function.go"
+        }
+    ],
+    "alias": [
+        "gistdirect"
+    ]
+}
