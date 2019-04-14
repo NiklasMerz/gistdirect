@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "*.go",
+            "src": "function.go",
             "use": "@now/go"
         }
     ],
@@ -17,5 +17,6 @@
     ],
     "alias": [
         "gistdirect"
-    ]
+    ],
+    "regions": ["bru"]
 }
