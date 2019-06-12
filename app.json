@@ -1,0 +1,9 @@
+{
+    "name": "gistdirect",
+    "env": {
+        "GIST_URL": {
+            "description": "specify the raw URL to you gist",
+            "required": true
+        }
+    }
+}

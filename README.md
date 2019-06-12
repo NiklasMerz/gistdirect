@@ -4,6 +4,8 @@
 
 > Imagine bitly.com or goo.gl and your hosts file combined
 
+[![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repo=https://github.com/niklasmerz/gistdirect)
+
 Create a Github Gist or just any plain file hosted somewhere. Gistdirect will grap that file and redirect the alias to the full url.
 
 Sample "host" file:
