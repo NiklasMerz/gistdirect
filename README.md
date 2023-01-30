@@ -15,7 +15,7 @@ gh https://github.com
 
 [Test File](https://gist.github.com/NiklasMerz/a9b5905f742b5863197a0af0465a39f6)
 
-The URL to the file is provided as an environment variable: `GIST_URL`
+**The URL to the file is provided as an environment variable**: `GIST_URL`. Make sure to provide an URL that is a raw textfile. If you use a GitHub Gist click on the raw button before grabbing the URL like `https://gist.githubusercontent.com/NiklasMerz/a9b5905f742b5863197a0af0465a39f6/raw/`.
 
 It is a simple Go function which is easy to run on any serverless platform. You can also run the binary somewhere and it will listen on port 8080. Executables are avaible from [releases](https://github.com/NiklasMerz/gistdirect/releases).
 
